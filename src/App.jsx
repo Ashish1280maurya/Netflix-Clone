@@ -4,7 +4,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom'
 import Login from './pages/Login/Login'
 import Player from './pages/Player/player'
 import { onAuthStateChanged } from 'firebase/auth'
-import { auth } from './Firebase'
+import { auth } from './firebase'
 import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
